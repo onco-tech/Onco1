@@ -127,7 +127,7 @@ if api_key:
             try:
                 # Подготовка модели
                 model = genai.GenerativeModel(
-                    model_name="gemini-1.5-flash", # Можно поменять на gemini-1.5-pro
+                    model_name="gemini-2.5-flash", # Можно поменять на gemini-2.5-pro
                     system_instruction=SYSTEM_PROMPT
                 )
                 
